@@ -1,5 +1,8 @@
-/* extension.js
- *
+/*
+ * A very-simple extension only for injecting my own custom GNOME Shell CSS customization
+ * (Best paired with the Blur My Shell extension by aunetx)
+ * 
+ * 
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 2 of the License, or
@@ -16,19 +19,9 @@
  * SPDX-License-Identifier: GPL-2.0-or-later
  */
 
-/* exported init */
-
-class Extension {
-    constructor() {
-    }
-
-    enable() {
-    }
-
-    disable() {
-    }
-}
-
 function init() {
-    return new Extension();
+    return {
+        enable() { },
+        disable() { }
+    };
 }
