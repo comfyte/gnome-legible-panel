@@ -3,12 +3,12 @@
 
 #panel .panel-button {
     color: #FFFFFF;
-    text-shadow: 0px 1px 8px rgba(0, 0, 0, 0.5);
+    text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 #panel .panel-button .system-status-icon,
 #panel .panel-button .app-menu-icon>StIcon {
-    icon-shadow: 0px 1px 8px rgba(0, 0, 0, 0.5);
+    icon-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 /* Additionally, use non-symbolic icons for the app menu */
