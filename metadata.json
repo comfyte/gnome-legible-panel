@@ -1,0 +1,8 @@
+{
+  "name": "Blur-My-Shell Companion: Lighten Panel Texts",
+  "description": "Lighten texts in the panel to make it more legible (and arguably more macOS-like)",
+  "uuid": "bmscompanionlightenpaneltexts@farrel.dev",
+  "shell-version": [
+    "42"
+  ]
+}
