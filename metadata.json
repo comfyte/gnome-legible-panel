@@ -1,7 +1,7 @@
 {
-  "name": "Blur-My-Shell Companion: More-Legible Panel",
-  "description": "Lighten texts and (re)colorize app menu icon in the panel to make it more legible (and arguably more macOS-like)",
-  "uuid": "legible-panel@farrel.dev",
+  "name": "comfyte shell customization",
+  "description": "comfyte's own CSS customization (mainly overrides) for the GNOME Shell",
+  "uuid": "comfyte-shell-customization@farrel.dev",
   "shell-version": [
     "42"
   ]
