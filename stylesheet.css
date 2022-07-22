@@ -1,31 +1,18 @@
 /* section: window-list extension customizations */
-/*
-.bottom-panel.solid {
-    background-color: rgba(0, 0, 0, 0.75);
-}
-*/
-
-.window-list {
-    spacing: 0 !important;
-}
-
 .window-button {
-    padding: 3px !important;
-}
-
-.window-button:first-child:ltr {
-    padding-left: 4px !important;
-}
-
-.window-button:last-child:rtl {
-    padding-right: 4px !important;
+    padding: 0 !important;
 }
 
 .window-button > StWidget {
     box-shadow: none !important;
     text-shadow: none !important;
+
+    /* Assuming that the default panel color is always black */
     background-color: transparent !important;
-    padding: 2px 6px !important;
+
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    border-radius: 0 !important;
 }
 
 .window-button:hover > StWidget,
